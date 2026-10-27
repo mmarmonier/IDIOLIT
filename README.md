@@ -83,7 +83,7 @@ Below is the exact schema (pretty-printed) for a standard multi-sentence graded 
   }
 }
 ```
-(**Note**: Single-sentence base triplets where $L=1$ will only contain the `full_literal` and `full_idiomatic` keys; **the dataset was reformatted for clarity** upon release and differs slightly in its structure from the one used by the authors, though this should not bear on reproducibility.)
+(**Note**: Single-, two-, four- and five-sentence base triplets (where L=1, 2, 4 or 5) will only contain the `full_literal` and `full_idiomatic` keys; **the dataset was reformatted for clarity** upon release and differs slightly in its structure from the one used by the authors, though this should not bear on reproducibility.)
 
 ## ⚖️ License
 The raw dataset is released under the CC BY-SA 4.0 license. All LLM completions, reasoning traces, and QE metric scores are released under CC BY-NC-SA 4.0.
