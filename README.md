@@ -9,7 +9,7 @@ The dataset comprises 10,963 instances distributed across two primary formats:
 
 - `idiolit_raw.json`: The base dataset containing the source sentences and target variants without metric scores, structured as a single JSON dictionary keyed by the 9 language pairs.
 
-- `scored_jsonl_clean/`: The fully evaluated dataset containing zero-shot GEMBA-style LLM judgments (including Chain-of-Thought reasoning traces) and numerical scores from conventional COMET and MetricX models. Because of the long LLM reasoning traces, this data is presented in the JSON Lines (.jsonl) format, divided into individual files per target language (e.g., `en-fr.jsonl`).
+- `scored_jsonl_clean/`: The fully evaluated dataset containing zero-shot GEMBA-style LLM judgments (including Chain-of-Thought reasoning traces) and numerical scores from conventional COMET and MetricX models. Because of the long LLM reasoning traces, this data is presented in the JSON Lines (.jsonl) format, divided into individual files per target language (e.g., `en-fr_VAL.jsonl`).
 
 ### 🌐 Language Keys
 The top-level keys in the raw JSON and the file names in the scored directory map to the following target languages of interest:
@@ -47,7 +47,7 @@ The raw data is a standard JSON dictionary where each key is a language pair poi
 
 **2. Scored Data (`scored_jsonl_clean/*.jsonl`)**
 
-Below is the exact schema (pretty-printed) for a standard multi-sentence graded segment (L=3) in the scored dataset, with completions truncated for legibility:
+Below is the partial schema (pretty-printed) for a standard multi-sentence graded segment (L=3) in the scored dataset, with completions truncated for legibility:
 
 ```json
 {
