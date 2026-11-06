@@ -1,3 +1,5 @@
+[![arXiv](https://img.shields.io/badge/arXiv-2610.35261-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2610.35261)
+
 # ⛰️🧭 IDIOLIT
 This is the companion repository to "The Lay of the Land in Idiom-Translation Quality Estimation", a paper exploring literality bias in state-of-the-art Quality Estimation (QE) systems. This repository hosts a parallel dataset pairing idiom-bearing English sentences with both literal and idiomatic translations, across a graded literality continuum for a subset of its instances, in nine target languages (Arabic, Chinese, French, Italian, Japanese, Modern Greek, Russian, Spanish and Turkish).
 
