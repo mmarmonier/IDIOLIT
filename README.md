@@ -89,3 +89,17 @@ Below is the partial schema (pretty-printed) for a standard multi-sentence grade
 
 ## ⚖️ License
 The raw dataset is released under the CC BY-SA 4.0 license. All LLM completions, reasoning traces, and QE metric scores are released under CC BY-NC-SA 4.0.
+
+## 📖 Citation
+If you use this dataset or findings from our paper, please consider citing:
+
+```bibtex
+@misc{marmonier2026laylandidiomtranslationquality,
+      title={The Lay of the Land in Idiom-Translation Quality Estimation}, 
+      author={Malik Marmonier and Benoît Sagot and Rachel Bawden},
+      year={2026},
+      eprint={2610.35261},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={[https://arxiv.org/abs/2610.35261](https://arxiv.org/abs/2610.35261)}, 
+}
